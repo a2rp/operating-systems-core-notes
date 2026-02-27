@@ -1,0 +1,73 @@
+/* theme.css */
+/* Operating Systems Core Notes Theme */
+
+:root {
+    /* Base */
+    --color-bg: #05080f;
+    --color-surface: #0b1220;
+    --color-surface-2: #0f1b2d;
+
+    /* Primary Accent (systems cyan) */
+    --color-primary: #35cfff;
+    --color-primary-hover: #74e2ff;
+
+    /* Secondary Accent (terminal green) */
+    --color-accent: #26d07c;
+
+    /* Text */
+    --color-text-primary: #f5f7ff;
+    --color-text-secondary: #c7cede;
+    --color-text-muted: #8893ad;
+
+    /* Borders */
+    --color-border: #1f2a3d;
+    --color-border-light: #2b3a55;
+
+    /* Links */
+    --color-link: #35cfff;
+    --color-link-hover: #74e2ff;
+
+    /* States */
+    --color-success: #26d07c;
+    --color-error: #ff5c7a;
+    --color-warning: #ffd166;
+
+    /* Code blocks */
+    --color-code-bg: #060c18;
+    --color-code-border: #1e2b45;
+
+    /* Shadow */
+    --color-shadow: rgba(0, 0, 0, 0.7);
+}
+
+/* Light Mode */
+
+html[data-theme="light"] {
+    --color-bg: #ffffff;
+    --color-surface: #f4f7ff;
+    --color-surface-2: #e9efff;
+
+    --color-primary: #0ea5e9;
+    --color-primary-hover: #0284c7;
+
+    --color-accent: #16a34a;
+
+    --color-text-primary: #0f172a;
+    --color-text-secondary: #334155;
+    --color-text-muted: #64748b;
+
+    --color-border: #d7deee;
+    --color-border-light: #c7d2fe;
+
+    --color-link: #0ea5e9;
+    --color-link-hover: #0284c7;
+
+    --color-success: #16a34a;
+    --color-error: #dc2626;
+    --color-warning: #d97706;
+
+    --color-code-bg: #f8fafc;
+    --color-code-border: #e2e8f0;
+
+    --color-shadow: rgba(2, 6, 23, 0.1);
+}
