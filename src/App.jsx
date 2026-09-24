@@ -1,5 +1,5 @@
 // App.jsx
-import React from "react";
+import React, { useRef } from "react";
 import { Styled } from "./App.styled";
 import Header from "./components/header";
 import Footer from "./components/footer";
@@ -15,15 +15,18 @@ import Deadlocks from "./topics/deadlocks";
 import MemoryManagement from "./topics/memoryManagement";
 import FileSystems from "./topics/fileSystems";
 import IoBasics from "./topics/ioBasics";
+import BackToTop from "./components/backToTop";
 import MustKnowQna from "./topics/mustKnowQna";
 
 const App = () => {
+    const mainRef = useRef(null);
+
     return (
         <Styled.Wrapper>
             <Styled.Header>
                 <Header />
             </Styled.Header>
-            <Styled.Main>
+            <Styled.Main ref={mainRef}>
                 <div className="contentWrapper">
                     <AboutOperatingSystems />
 
@@ -46,6 +49,7 @@ const App = () => {
                     <Footer />
                 </div>
             </Styled.Main>
+            <BackToTop targetRef={mainRef} />
         </Styled.Wrapper>
     );
 };
