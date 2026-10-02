@@ -88,6 +88,7 @@ export const Styled = {
                 height: 260px;
                 object-fit: cover;
                 display: block;
+                filter: grayscale(1);
                 transition: opacity 220ms ease;
                 opacity: 0;
             }

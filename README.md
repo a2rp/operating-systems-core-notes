@@ -2,7 +2,7 @@
 
 A focused single-page revision guide for core Operating Systems concepts, from processes and CPU scheduling to memory, synchronization, deadlocks, file systems and I/O.
 
-![Operating Systems Core Notes preview](screenshot.png)
+![Operating Systems Core Notes screenshot](./screenshot.jpg)
 
 ## Features
 
